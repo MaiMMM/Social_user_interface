@@ -1,3 +1,5 @@
+import img1 from '../../images/svg-1.svg'
+
 export const homeObjOne = {
     id: 'about',
     lightBg: false,
@@ -8,8 +10,8 @@ export const homeObjOne = {
     description: 'Something desription',
     buttonLabel: 'Seomthing Label',
     imgStart: false,
-    img: require('../../images/well-being.png'),
-    alt: 'Car',
+    img: img1,
+    alt: 'none',
     dark: true,
     primary:true,
     darkText: false
