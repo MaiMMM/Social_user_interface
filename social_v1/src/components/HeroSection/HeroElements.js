@@ -7,7 +7,7 @@ export const HeroContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 860px;
+    height: 900px;
     position: relative;
     z-index:1;
 
@@ -21,13 +21,33 @@ export const HeroContainer = styled.div`
         background: linear-gradient(
             180deg, 
             rgba(0,0,0,0.2) 0%, 
-            rgba(0,0,0,0.6) 20%), 
+            rgba(0,0,0,0.5) 20%), 
 
             linear-gradient(
-                180deg, rgba(0,0,0.2) 0%, 
+                180deg, rgba(0,0,0.8) 0%, 
                 transparent 20%);
         z-index: 2;
     }
+
+    :after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(
+            360deg,
+            rgba(0,0,0,0.8) 0%, 
+            rgba(0,0,0,0.2) 30%), 
+
+            linear-gradient(
+                360deg, rgba(0,0,0.8) 0%, 
+                transparent 20%);
+        z-index: 2;
+    }
+
+
 `
 
 export const HeroBg = styled.div`

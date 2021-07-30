@@ -40,6 +40,7 @@ const Navbar = ({toggle}) => {
                     </NavBtn>
                 </NavbarContainer>
             </Nav>
+
         </>
     );
 };
