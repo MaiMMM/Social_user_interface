@@ -34,7 +34,7 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-    id: 'Games',
+    id: 'game',
     lightBg: true,
     lightText: false,
     lightTextDesc: true,
@@ -47,5 +47,22 @@ export const homeObjThree = {
     alt: 'none',
     dark: true,
     primary:true,
+    darkText: false
+};
+
+export const homeObjFour = {
+    id: 'sign up',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Discover',
+    headline: 'Something headline',
+    description: 'Something desription',
+    buttonLabel: 'Seomthing Label',
+    imgStart: true,
+    img: img1,
+    alt: 'none',
+    dark: false,
+    primary: false,
     darkText: false
 };
